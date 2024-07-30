@@ -1,0 +1,265 @@
+html{
+    height: 100% ;
+}
+
+body{
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    height: 100% ;
+}
+
+.body-home{
+    background-image: url(images/restaurant%20background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.body-meals{
+    background-image: url(images/wood%20background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*==========HEADER==========*/
+
+.header{
+    background-color: burlywood;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position:fixed;
+    overflow: visible;
+    
+    text-align: center;
+
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+
+.header img{
+    
+    padding-top: 3px;
+}
+
+/*===== HOME PAGE MENU=====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align:  center;
+    border: 5px solid #ffffff ;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 80% ;
+}
+
+/*==========MEALS PAGE==========*/
+
+#meals{
+    padding-top: 50px;
+}
+
+/*===== MEALS PAGE MENU=====*/
+
+.meals-list a {
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid #000000;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: #1a1a1a;
+    padding-right: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #000000;
+    margin-top: -7px;
+    padding-left:20px;
+}
+
+/*===== FORM =====*/
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width:100%;
+    background-color:burlywood;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+/*===== MEALS DETAILS =====*/
+
+.meal-info img{
+    width: 100%;
+}
+
+.meal-info h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.meal-details-extras h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0;
+    margin-left: 15px;
+}
+.meal-details-info{
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.meal-details-info p{
+    font-size: 17px;
+    display: inline-block;
+}   
+  
+/*============== BOTTOM TABS=================*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color:burlywood;
+    font-family: sans-serif;
+}
+
+#tabs-bottom a{
+    float : left;
+    display : block;
+    width : 50%;
+    height : 35px;
+    font-weight : 700;
+    color: white;
+    text-align:center;
+    text-decoration : none;
+    padding-top: none;
+}      
+
+/*============== INFO-BOX FULL =================*/
+
+#info-box-full{
+    background:rgba(255,255,255);
+    width: 80%;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+#info-box-full-img{
+    width: 100%;
+}
+
+/*========== RESPONSIVE LAYOUT==========*/    
+    
+@media only screen and (min-width:600px) {
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}  
+
+@media only screen and (min-width:1000px) {
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+    
+ @media only screen and (min-width:1500px) {
+    #meals{
+        width: 40%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 40%;
+        margin: auto;
+    }
+}
+       
+@media only screen and (min-width:720px) {
+    .body-home{
+        background-image: url(images/restaurant%20background.jpg)
+    }
+    
+    .body-meals{
+        background-image: url(images/wood%20background.jpg)
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
